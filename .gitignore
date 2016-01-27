@@ -1,0 +1,9 @@
+node_modules
+assets/src/css/less/deconst-variables.less
+assets/src/css/main.css
+assets/src/js/bundle.js
+assets/dist
+build
+.cache
+.tmp
+.sass-cache
