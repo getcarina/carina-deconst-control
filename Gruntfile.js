@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         cssmin: {
             build: {
                 files: {
-                    'assets/dist/css/main.css': 'assets/src/css/main.css'
+                    'assets/dist/css/getcarina.css': 'assets/src/css/main.css'
                 }
             }
         },
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
             },
             carina_css_js: {
                 options: {
-                    files: ['assets/dist/css/main.css', 'assets/dist/js/site.min.js']
+                    files: ['assets/dist/css/getcarina.css', 'assets/dist/js/getcarina.min.js']
                 }
             }
         },
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
         uglify: {
             build: {
                 files: {
-                    'assets/dist/js/site.min.js': [
+                    'assets/dist/js/getcarina.min.js': [
                       'assets/src/js/bundle.js'
                     ]
                 }
