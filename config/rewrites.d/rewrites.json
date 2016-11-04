@@ -117,6 +117,24 @@
           "to": "/docs/reference/glossary/",
           "rewrite": false,
           "status": 301
+        },
+        {
+          "from": "\\/docs\\/getting-started\\/getting-started-on-carina\\/?",
+          "to": "/docs/getting-started/create-swarm-cluster/",
+          "rewrite": false,
+          "status": 301
+        },
+        {
+          "from": "\\/docs\\/getting-started\\/getting-started-carina-cli\\/?",
+          "to": "/docs/getting-started/create-swarm-cluster-with-cli/",
+          "rewrite": false,
+          "status": 301
+        },
+        {
+          "from": "\\/docs\\/tutorials\\/docker-version-manager\\/?",
+          "to": "/docs/reference/docker-version-manager/",
+          "rewrite": false,
+          "status": 301
         }
     ]
 }
