@@ -117,6 +117,13 @@
           "to": "/docs/reference/glossary/",
           "rewrite": false,
           "status": 301
+        },
+        {
+          "from": "^\\/betadocs\\/(.?)$",
+          "to": "/getcarina.com/build-38da3ce156/$1",
+          "toHostname": "staging.developer.rackspace.com",
+          "rewrite": true,
+          "status": 200
         }
     ]
 }
